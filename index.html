@@ -80,10 +80,8 @@
         </div>
       </nav>
     </div>
-    <main id="main-doc">
-      <div class="container-fluid">
-      <div class="col-md-8 py-5 px-3 mx-auto">
-      <header class="pb-3 mb-5 border-bottom">
+    <div id="main-doc" class="container-fluid col-md-8 py-5 px-3 mx-5">
+      <header class="pb-3 ml-5 border-bottom">
         <h1 class="h4">
           <a
             href="/"
@@ -104,11 +102,12 @@
                 fill="currentColor"
                 ></path>
             </svg>
-            <span class="h2 bg-gradient-light">Hello World Code Snippets</span>
+            <span class="h2 ml-2 bg-gradient-light">Hello World Code Snippets</span>
           </a>
         </h1>
       </header>
-      <section class="col-lg-8 px-0 main-section" id=".net">
+      </div>
+      <section class="col-lg-8 ml-5 px-5 main-section" id=".net">
         <header class="h3 bg-gradient-light">.NET</header>
         <div class="h5">Console.WriteLine Method</div>
         <div class="lead">Writes the specified data, followed by the current line terminator, to the standard output stream.</div>
@@ -129,7 +128,7 @@ namespace myApp
   </code>
   </pre>
     </section>
-    <section class="col-lg-8 px-0 main-section" id="java">
+    <section class="col-lg-8 ml-5 px-5 main-section" id="java">
       <header class="h3 bg-gradient-light">Java</header>
       <div class="h5">System.out.println()</div>
       <div class="lead">In Java, System.out.println() is a statement which prints the argument passed to it. The println() method display results on the monitor. Usually, a method is invoked by objectname.methodname().</div>
@@ -146,7 +145,7 @@ public class HelloWorld {
   </code>
   </pre>
     </section>
-    <section class="col-lg-8 px-0 main-section" id="javascript">
+    <section class="col-lg-8 ml-5 px-5 main-section" id="javascript">
       <header class="h3 bg-gradient-light">JavaScript</header>
       <div class="h5">console.log()</div>
       <div class="lead">The console.log() method outputs a message to the web console. The message may be a single string (with optional substitution values), or it may be any one or more javaScript objects.</div>
@@ -156,7 +155,7 @@ console.log('Hello World');
   </code>
   </pre>
     </section>
-    <section class="col-lg-8 px-0 main-section" id="typescript">
+    <section class="col-lg-8 ml-5 px-5 main-section" id="typescript">
       <header class="h3 bg-gradient-light">TypeScript</header>
       <div class="h5">console.log()</div>
       <div class="lead">The console.log() method outputs a message to the web console. See JavaScript above.</div>
@@ -167,7 +166,7 @@ console.log(message);
   </code>
   </pre>
     </section>
-    <section class="col-lg-8 px-0 main-section" id="python">
+    <section class="col-lg-8 ml-5 px-5 main-section" id="python">
       <header class="h3 bg-gradient-light">Python</header>
       <div class="h5">print()</div>
       <div class="lead">Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.</div>
@@ -183,6 +182,5 @@ print("Hello, World!")
       defer
       ></script>
     <script type="module" src="assets/js/starter.js" async defer></script>
-    </main>
     </body>
 </html>
