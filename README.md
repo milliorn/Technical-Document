@@ -6,6 +6,7 @@
 [![Check Markdown links](https://github.com/milliorn/Sample-Technical-Document/actions/workflows/markdown-link-check.yml/badge.svg)](https://github.com/milliorn/Sample-Technical-Document/actions/workflows/markdown-link-check.yml)
 [![Lint Code Base](https://github.com/milliorn/Sample-Technical-Document/actions/workflows/super-linter.yml/badge.svg)](https://github.com/milliorn/Sample-Technical-Document/actions/workflows/super-linter.yml)
 [![CodeQL](https://github.com/milliorn/Sample-Technical-Document/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/milliorn/Sample-Technical-Document/actions/workflows/codeql-analysis.yml)
+[![OSSAR](https://github.com/milliorn/Sample-Technical-Document/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/milliorn/Sample-Technical-Document/actions/workflows/ossar-analysis.yml)
 
 <https://getbootstrap.com/>
 
