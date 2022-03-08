@@ -8,3 +8,5 @@
 <https://getbootstrap.com/>
 
 <https://css-tricks.com/snippets/css/media-queries-for-standard-devices/>
+
+![alt text](https://github.com/milliorn/Bootstrap-Technical-Document/blob/main/bootstrap-technical-document.netlify.app_(iPad).png)
